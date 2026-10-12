@@ -87,3 +87,31 @@ li {
 .delete-btn:hover {
     background-color: #ff3344;
 }
+.features {
+    text-align: left;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f4f4f9;
+    border-radius: 8px;
+}
+
+.features p {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.launch-btn {
+    display: inline-block;
+    background-color: #667eea;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.launch-btn:hover {
+    background-color: #5a6fd6;
+}
