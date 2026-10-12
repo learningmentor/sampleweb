@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Flow - Pomodoro & Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Focus Flow</h1>
+        
+        <div class="timer-card">
+            <h2 id="time-display">25:00</h2>
+            <div class="controls">
+                <button id="start-btn">Start</button>
+                <button id="pause-btn">Pause</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </div>
+
+        <div class="task-section">
+            <div class="input-group">
+                <input type="text" id="task-input" placeholder="What are you working on?">
+                <button id="add-task-btn">Add</button>
+            </div>
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
